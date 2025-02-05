@@ -7,7 +7,6 @@ body {
     margin: auto;
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     padding: 20px;
     background-color: #E8EDDF;
@@ -31,8 +30,10 @@ body {
 }
 
 .label {
+    margin-top: 20px;
     padding: 7px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background-color: #496074; 
     color: #fff;
     font-family: "quicksand", serif;
@@ -43,7 +44,8 @@ body {
 .input {
     background-color: #A1BFA7;
     padding: 7px;
-    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     border: none;
     font-family: "quicksand", serif;
     font-size: 14px;
@@ -56,6 +58,40 @@ body {
 }
 
 .select {
-    
+    background-color: #A1BFA7;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none; 
+    cursor: pointer;
 }
+
+.checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer; 
+}
+
+.button {
+    padding: 7px;
+    background-color: #E8EDDF;
+    color: #2D4259;
+    border-radius: 5px; 
+    border: 2px solid #2D4259; 
+    font-family: "quicksand", serif;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+.button:hover {
+    padding: 7px;
+    background-color: #2D4259;
+    color: #E8EDDF;
+    border-radius: 5px; 
+    border: 2px solid #2D4259; 
+    font-family: "quicksand", serif;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+
 
