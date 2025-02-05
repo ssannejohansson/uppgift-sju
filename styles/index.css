@@ -3,5 +3,25 @@ body {
     background-color: #1A2E41;
 }
 
+.form {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #496074;
+    max-width: 700px;
+    width: 100%;
+}
 
+.form__title {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A1BFA7;
+    color: #2D4259;
+    font-family: "quicksand", serif;
+    font-size: 36px;
+}
 
