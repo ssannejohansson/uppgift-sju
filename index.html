@@ -16,15 +16,27 @@
     <main>
         <form class="form">
             <h1 class="form__title">This is my form</h1>
-            <input type="name" placeholder="Your name">
-            <input type="email" placeholder="Your email">
-            <select name="dropdown" placeholder="Message Regarding"></select>
-            <textarea name="message" placeholder="Your Message"></textarea>
+            
+            <label for="name" class="label">Full Name</label>
+            <input type="name" class="input" placeholder="enter your name">
+            
+            <label for="email" class="label">Your Email</label>
+            <input type="email" class="input" placeholder="enter your email">
+            
+            <label for="dropdown" class="label">Message Regarding</label>
+            <select name="dropdown" class="select"></select>
+                <option value="Option1">Option 1</option>
+                <option value="Option2">Option 2</option>
+                <option value="Option3">Option 3</option>
+            
+            <label for="message" class="label">Message</label>
+            <textarea name="message" class="input" placeholder="enter your message"></textarea>
+            
             <button>Send Message</button>
             </form>
 
 
-            
+
     </main>
 </body>
 </html>
