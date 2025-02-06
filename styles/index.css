@@ -38,7 +38,6 @@ body {
     color: #fff;
     font-family: "quicksand", serif;
     font-size: 16px;
-
 }
 
 .input {
@@ -74,6 +73,8 @@ body {
 .select {
     width: 100%;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     position: relative;
     background-color: #A1BFA7;
     padding: 7px;
@@ -85,6 +86,8 @@ body {
     border: none; 
     cursor: pointer;
 }
+
+/* I've tried to style the drop-down options in several ways, but it won't change from the browsers deafult (either in Safari, Chrome or Firefox) so I'll leave it without any custom styling for this assignment*/
 
 .button {
     margin-top: 20px;
