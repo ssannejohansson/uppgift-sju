@@ -61,66 +61,33 @@ body {
     background-color: #869e8b;
 }
 
+.input:focus {
+    background-color: #869e8b;
+    border: 1px solid #2D4259;
+}
+
+.select__wrapper {
+    width: 100%;
+    position: relative;
+}
+
 .select {
+    width: 100%;
+    -webkit-appearance: none;
+    position: relative;
     background-color: #A1BFA7;
+    padding: 7px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    font-family: "quicksand", serif; 
     border: none; 
     cursor: pointer;
 }
 
-.select:hover {
-    background-color: #869e8b;
-}
-
-.checkbox__container {
-    display: block;
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; 
-}
-
-.checkbox__info {
-    margin-left: 30px;
-    line-height: 23px;
-    font-family: "quicksand", serif; 
-    font-size: 16px; 
-    color: #1A2E41;
-}
-
-.checkbox__container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
-
-.checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 23px;
-    width: 23px;
-    background-color: #A1BFA7; 
-    border-radius: 5px;
-}
-
-.checkbox__container:hover input ~ .checkmark {
-    background-color: #869e8b;
-}
-
-
-
-
-
-
 .button {
+    margin-top: 20px;
     padding: 7px;
     background-color: #E8EDDF;
     color: #2D4259;

@@ -18,27 +18,22 @@
             <h1 class="form__title">This is my form</h1>
             
                 <label for="name" class="label">Full Name</label>
-                <input type="name" class="input" placeholder="enter your name">
+                <input type="text" class="input" id="name" placeholder="enter your name" required autofocus>
             
                 <label for="email" class="label">Your Email</label>
-                <input type="email" class="input" placeholder="enter your email">
-            
-                <label for="dropdown" class="label">Message Regarding:</label>
-            <select name="dropdown" class="select">
-                <option value="Option1" selected>Option 1</option>
-                <option value="Option2">Option 2</option>
-                <option value="Option3">Option 3</option>
-            </select>
+                <input type="email" class="input" id="email" placeholder="enter your email" required>
+                    
+                <label for="select" class="label" required>Message Regarding:</label>
+                <div class="select__wrapper">
+                    <select class="select" required>
+                        <option value="1">Option 1</option>
+                        <option value="2" selected>Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select> 
+                </div>
 
                 <label for="message" class="label">Message</label>
-                <textarea name="message" class="input" placeholder="enter your message"></textarea>
-
-                <label class="checkbox__container">
-                    <p class="checkbox__info">Check this box if you want to, or not.</p> 
-                    <input type="checkbox" checked="checked">
-                    <span class="checkmark"></span>
-                </label>
-            </div>
+                <textarea name="message" class="input" id="message" placeholder="enter your message" required maxlength="200"></textarea>
 
 
             <button class="button">Submit</button>
